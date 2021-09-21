@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".fragment.MainFragment">
+    tools:context=".fragment.QuestionFragment">
 
     <TextView
         android:id="@+id/textView"
@@ -17,25 +17,25 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintVertical_bias="0.037" />
 
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="420dp"
+        android:layout_width="279dp"
+        android:layout_height="316dp"
         android:layout_marginTop="108dp"
         android:src="@drawable/question_img"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.0"
         tools:layout_edit_absoluteY="233dp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/btn_next"
         android:layout_width="123dp"
         android:layout_height="109dp"
         android:src="@drawable/next"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875" />
+        app:layout_constraintVertical_bias="0.978" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
